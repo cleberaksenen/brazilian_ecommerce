@@ -1,4 +1,7 @@
 # Brazilian E-Commerce Public Dataset by Olist
+The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil.
+
+Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.
 
 ## Available at:
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
@@ -10,15 +13,13 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 #### product_id -> olist_products_dataset
 #### seller_id -> olist_sellers_dataset
 
-## New measures added in Power BI
+![Power BI Dashboard](image.png)
 
-### Basic Measures
-#### Total_Orders = COUNT(olist_orders_dataset[order_id])
-#### Total_Revenue = SUM(olist_order_payments_dataset[payment_value])
-#### Unique_Customers = DISTINCTCOUNT(olist_customers_dataset[customer_id])
-#### Total_Products_Sold = SUM(olist_order_items_dataset[order_item_id])
+## How to use
 
-### KPIs for Dashboard
-#### Avg_Ticket_Per_Order = [Total_Revenue] / [Total_Orders]
-#### Avg_Ticket_Per_Customer = [Total_Revenue] / [Unique_Customers]
+### 1. Use the "main.ipynb" Notebook for the data extraction and processing
+### 2. Use the "dashboard.ipynb" Notebook to develop a simple dashboard in Python language 
+### 3. The main dashboard was created in Power BI and is available in the "dashboard.pbix" file
+
+
 
