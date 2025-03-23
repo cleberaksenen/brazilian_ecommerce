@@ -13,7 +13,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 #### product_id -> olist_products_dataset
 #### seller_id -> olist_sellers_dataset
 
-![Power BI Dashboard](image.png)
+![Power BI Dashboard](./images/image.png)
 
 ## How to use
 
