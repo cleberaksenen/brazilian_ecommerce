@@ -31,3 +31,5 @@ The dashboard.ipynb notebook provides a simple dashboard implementation in Pytho
 ### 3️⃣ Power BI Dashboard
 
 The main dashboard was built in Power BI and is available in the dashboard.pbix file.
+
+![alt text](./images/image.png)
