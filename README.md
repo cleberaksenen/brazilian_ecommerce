@@ -5,7 +5,7 @@ The dataset provides a comprehensive view of e-commerce orders, covering order s
 
 ## 📌 Data Source
 The dataset is available on Kaggle:
-🔗 [Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist)
+🔗 [Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ## 📊 Power BI Data Relationships
 The key relationships in the Power BI data model are:
